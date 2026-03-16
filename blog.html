@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights & Blog - Rural Development Stories | KGVS Global</title>
+    <meta name="description"
+        content="Latest news, success stories, and educational insights from KGVS's initiatives in sustainable agriculture and youth empowerment in Rajasthan.">
+    <meta name="keywords"
+        content="Rural Development Blog, KGVS Success Stories, Agriculture Insights Rajasthan, NGO Blog India">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="KGVS Global">
+    <meta name="theme-color" content="#2D5A27">
+    <link rel="canonical" href="https://kgvsglobal.in/blog.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kgvsglobal.in/blog.html">
+    <meta property="og:title" content="Insights & Blog - Rural Development Stories">
+    <meta property="og:description"
+        content="Latest news and success stories from KGVS's initiatives in rural Rajasthan.">
+    <meta property="og:image" content="https://kgvsglobal.in/image/logo.jpg">
+    <meta property="og:site_name" content="KGVS Global">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kgvsglobal.in/blog.html">
+    <meta property="twitter:title" content="Insights & Blog - Rural Development Stories">
+    <meta property="twitter:description"
+        content="Latest news and success stories from KGVS's initiatives in rural Rajasthan.">
+    <meta property="twitter:image" content="https://kgvsglobal.in/image/logo.jpg">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Organization",
+                    "name": "KGVS Global",
+                    "url": "https://kgvsglobal.in/",
+                    "logo": "https://kgvsglobal.in/image/logo.jpg",
+                    "sameAs": [
+                        "https://www.instagram.com/i.y.k.r.i"
+                    ],
+                    "contactPoint": [
+                        {
+                            "@type": "ContactPoint",
+                            "telephone": "+91-7568304591",
+                            "contactType": "customer service",
+                            "areaServed": "IN",
+                            "availableLanguage": [
+                                "en",
+                                "hi"
+                            ]
+                        }
+                    ],
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "1J5, Jiya Complex, Opp. J.B. Girls College",
+                        "addressLocality": "Jhunjhunu",
+                        "addressRegion": "Rajasthan",
+                        "addressCountry": "IN"
+                    }
+                },
+                {
+                    "@type": "WebSite",
+                    "name": "KGVS Global",
+                    "url": "https://kgvsglobal.in/"
+                }
+            ]
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            green: '#2D5A27',
+                            lightGreen: '#4A8B3F',
+                            orange: '#F58220',
+                            accent: '#FBB040',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'fade-in': 'fadeIn 1s ease-out forwards',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scrollbar-gutter: stable;
+        }
+
+        body {
+            overflow-x: hidden;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+
+        .blog-content.collapsed {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Mobile Menu Transitions */
+        #mobile-menu {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #mobile-menu.hidden-menu {
+            transform: translateX(100%);
+        }
+
+        #mobile-menu a:not(.bg-brand-green):not(.bg-brand-orange) {
+            background: #ffffff;
+            color: #111827;
+            padding: 10px 12px;
+            border-radius: 12px;
+        }
+
+        #mobile-menu a:not(.bg-brand-green):not(.bg-brand-orange):hover {
+            background: #f3f4f6;
+            color: #2D5A27;
+        }
+
+        .mobile-menu-button {
+            width: 44px;
+            height: 44px;
+        }
+
+        .mobile-menu-drawer {
+            width: min(80vw, 320px);
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800 antialiased bg-gray-50 overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-white shadow-sm font-sans">
+        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <button id="menu-toggle"
+                    class="md:hidden bg-white text-brand-green border border-gray-200 rounded-full shadow-sm flex items-center justify-center mobile-menu-button focus:outline-none focus:ring-2 focus:ring-brand-green/40"
+                    aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <div class="flex items-center space-x-2">
+                    <img src="image/logo.jpg" alt="KGVS Logo" class="h-14 w-auto rounded-full border border-gray-100">
+                    <div class="flex flex-col justify-center">
+                        <span
+                            class="font-black text-brand-green block leading-tight text-sm md:text-base tracking-tighter">KGVS
+                            GLOBAL</span>
+                        <span
+                            class="text-[10px] text-gray-500 uppercase tracking-widest font-black leading-none mt-0.5">Since
+                            2005</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 font-black uppercase text-xs tracking-widest">
+                <a href="index.html" class="hover:text-brand-lightGreen transition-colors">Home</a>
+                <a href="about.html" class="hover:text-brand-lightGreen transition-colors">About</a>
+                <a href="iykri.html" class="hover:text-brand-lightGreen transition-colors">IYKRI</a>
+                <a href="projects.html" class="hover:text-brand-lightGreen transition-colors">Projects</a>
+                <a href="blog.html" class="text-brand-green border-b-2 border-brand-green pb-1">Blog</a>
+                <a href="gallery.html" class="hover:text-brand-lightGreen transition-colors">Gallery</a>
+                <a href="contact.html" class="hover:text-brand-lightGreen transition-colors">Contact</a>
+            </div>
+
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="support-us.html"
+                    class="bg-brand-green text-white px-6 py-2 rounded-full font-bold hover:bg-brand-green/90 transition-all transform hover:scale-105">Support
+                    Us</a>
+                <a href="iykri.html"
+                    class="hidden md:block bg-brand-orange text-white px-6 py-2 rounded-full font-bold hover:bg-brand-orange/90 transition-all">Join
+                    IYKRI</a></div>
+
+        </nav>
+
+        <!-- Mobile Menu Drawer -->
+        <div id="mobile-menu"
+            class="fixed inset-y-0 right-0 w-64 bg-white shadow-2xl z-[60] md:hidden flex flex-col p-8 space-y-6 font-black uppercase text-sm tracking-widest hidden-menu mobile-menu-drawer"
+            role="dialog" aria-modal="true" aria-hidden="true">
+            <button id="menu-close" class="self-end text-brand-green mb-4">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+            <a href="index.html" class="hover:text-brand-lightGreen transition-colors">Home</a>
+            <a href="about.html" class="hover:text-brand-lightGreen transition-colors">About</a>
+            <a href="iykri.html" class="hover:text-brand-lightGreen transition-colors">IYKRI</a>
+            <a href="projects.html" class="hover:text-brand-lightGreen transition-colors">Projects</a>
+            <a href="blog.html" class="text-brand-green">Blog</a>
+            <a href="gallery.html" class="hover:text-brand-lightGreen transition-colors">Gallery</a>
+            <a href="contact.html" class="hover:text-brand-lightGreen transition-colors">Contact</a>
+            <a href="support-us.html"
+                class="bg-brand-green text-white px-6 py-3 rounded-xl text-center shadow-lg">Support Us</a>
+            <a href="iykri.html" class="bg-brand-orange text-white px-6 py-3 rounded-xl text-center shadow-lg">Join
+                IYKRI</a></div>
+    </header>
+
+    <main class="pt-32 pb-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h1 class="font-heading text-4xl md:text-6xl font-black text-gray-900 mb-4 uppercase">KGVS Insights</h1>
+                <p class="text-gray-600 max-w-2xl mx-auto italic font-black">"Stories of change, innovation, and rural
+                    empowerment."</p>
+                <div class="w-24 h-2 bg-brand-green mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="grid gap-12 max-w-5xl mx-auto">
+                <!-- Blog Post 1 -->
+                <article
+                    class="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 flex flex-col md:flex-row h-full">
+                    <div class="md:w-1/2 overflow-hidden">
+                        <img src="image/KGVS PPt final 14-05-2019 (1) (1)_page-0012.jpg" alt="SHG Formation"
+                            class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                            loading="lazy">
+                    </div>
+                    <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                        <span class="text-brand-orange font-black text-xs uppercase tracking-widest mb-3">Rural
+                            Development</span>
+                        <h2 class="text-2xl md:text-3xl font-black text-gray-900 mb-4 leading-tight">
+                            Importance of SHG
+                            Formation in Rural Development</h2>
+                        <div id="blog1-content"
+                            class="blog-content collapsed text-gray-800 leading-relaxed mb-6 font-black text-sm md:text-base">
+                            Self Help Groups (SHGs) are the cornerstone of rural financial inclusion. By pooling
+                            resources and expertise, villagers, especially women, gain the ability to start small
+                            businesses and escape the cycle of high-interest local debt. KGVS has been instrumental in
+                            forming over 1,000 SHGs in Jhunjhunu, providing training in bookkeeping, group dynamics, and
+                            micro-entrepreneurship. These groups not only provide financial support but also serve as a
+                            platform for social change, addressing issues like education, health, and sanitation within
+                            their communities. The collective power of SHGs fosters a sense of solidarity and empowers
+                            individuals to take charge of their own development.
+                        </div>
+                        <button onclick="toggleBlog('blog1')" id="blog1-btn"
+                            class="text-brand-green font-black uppercase text-sm tracking-widest hover:text-brand-orange transition-colors flex items-center">
+                            <span>Read More</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article
+                    class="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 flex flex-col md:flex-row-reverse h-full">
+                    <div class="md:w-1/2 overflow-hidden">
+                        <img src="image/KGVS PPt final 14-05-2019 (1) (1)_page-0013.jpg" alt="Sustainable Agriculture"
+                            class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                            loading="lazy">
+                    </div>
+                    <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                        <span
+                            class="text-brand-orange font-black text-xs uppercase tracking-widest mb-3">Agri-Innovation</span>
+                        <h2 class="text-2xl md:text-3xl font-black text-gray-900 mb-4 leading-tight">
+                            Sustainable
+                            Agriculture in Rajasthan</h2>
+                        <div id="blog2-content"
+                            class="blog-content collapsed text-gray-800 leading-relaxed mb-6 font-black text-sm md:text-base">
+                            Rajasthan's arid climate presents unique challenges for farmers. KGVS promotes sustainable
+                            techniques like drip irrigation, organic farming, and traditional rainwater harvesting
+                            (Kunds) to ensure long-term soil health and water security. Our demo farms showcase how
+                            minimal water can yield high-quality produce. We also provide guidance on crop
+                            diversification, encouraging farmers to grow drought-resistant and high-value crops. By
+                            integrating traditional knowledge with modern scientific practices, we help farmers build
+                            resilience against climate change and improve their livelihoods while preserving the natural
+                            environment for future generations.
+                        </div>
+                        <button onclick="toggleBlog('blog2')" id="blog2-btn"
+                            class="text-brand-green font-black uppercase text-sm tracking-widest hover:text-brand-orange transition-colors flex items-center">
+                            <span>Read More</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article
+                    class="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 flex flex-col md:flex-row h-full">
+                    <div class="md:w-1/2 overflow-hidden">
+                        <img src="image/KGVS PPt final 14-05-2019 (1) (1)_page-0014.jpg" alt="NABARD Role"
+                            class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                            loading="lazy">
+                    </div>
+                    <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                        <span
+                            class="text-brand-orange font-black text-xs uppercase tracking-widest mb-3">Partnerships</span>
+                        <h2 class="text-2xl md:text-3xl font-black text-gray-900 mb-4 leading-tight">Role
+                            of NABARD in
+                            Rural Growth</h2>
+                        <div id="blog3-content"
+                            class="blog-content collapsed text-gray-800 leading-relaxed mb-6 font-black text-sm md:text-base">
+                            NABARD has been a vital partner for KGVS in implementing large-scale rural projects. From
+                            Farmer Producer Organizations (FPOs) to climate-proofing initiatives, NABARD's support
+                            provides the necessary resources to scale our impact and bring technological advancements to
+                            the remotest villages of Jhunjhunu. This partnership involves not only financial assistance
+                            but also technical guidance and monitoring, ensuring that every project achieves its
+                            intended goals. Together, we are creating a robust ecosystem that supports rural
+                            entrepreneurs, strengthens agricultural value chains, and enhances the overall
+                            socio-economic landscape of the region.
+                        </div>
+                        <button onclick="toggleBlog('blog3')" id="blog3-btn"
+                            class="text-brand-green font-black uppercase text-sm tracking-widest hover:text-brand-orange transition-colors flex items-center">
+                            <span>Read More</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article
+                    class="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 flex flex-col md:flex-row-reverse h-full">
+                    <div class="md:w-1/2 overflow-hidden">
+                        <img src="image/KGVS PPt final 14-05-2019 (1) (1)_page-0015.jpg" alt="Women Empowerment"
+                            class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                            loading="lazy">
+                    </div>
+                    <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                        <span
+                            class="text-brand-orange font-black text-xs uppercase tracking-widest mb-3">Equality</span>
+                        <h2 class="text-2xl md:text-3xl font-black text-gray-900 mb-4 leading-tight">
+                            Women Empowerment
+                            through SHGs</h2>
+                        <div id="blog4-content"
+                            class="blog-content collapsed text-gray-800 leading-relaxed mb-6 font-black text-sm md:text-base">
+                            Empowering women is central to KGVS's mission. Through SHGs, women are gaining financial
+                            independence, leadership roles, and a stronger voice in community decisions. Many are now
+                            running successful tailoring, dairy, and handicraft units, transforming from housewives to
+                            entrepreneurs. Our programs provide them with the skills and confidence to participate in
+                            local governance and advocate for their rights. By improving their economic status, we also
+                            see a positive impact on their children's education and health. Women in these groups become
+                            role models, inspiring other women to pursue their dreams and contribute to the progress of
+                            their villages.
+                        </div>
+                        <button onclick="toggleBlog('blog4')" id="blog4-btn"
+                            class="text-brand-green font-black uppercase text-sm tracking-widest hover:text-brand-orange transition-colors flex items-center">
+                            <span>Read More</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article
+                    class="bg-white rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100 flex flex-col md:flex-row h-full">
+                    <div class="md:w-1/2 overflow-hidden">
+                        <img src="image/KGVS PPt final 14-05-2019 (1) (1)_page-0016.jpg" alt="Youth Skills"
+                            class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                            loading="lazy">
+                    </div>
+                    <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                        <span
+                            class="text-brand-orange font-black text-xs uppercase tracking-widest mb-3">Education</span>
+                        <h2 class="text-2xl md:text-3xl font-black text-gray-900 mb-4 leading-tight">Youth Skill
+                            Development Opportunities</h2>
+                        <div id="blog5-content"
+                            class="blog-content collapsed text-gray-800 leading-relaxed mb-6 font-black text-sm md:text-base">
+                            The future of rural India lies in its youth. IYKRI, under the KGVS umbrella, provides
+                            specialized coaching for JET, CUET, and other competitive exams. Beyond academics, we offer
+                            vocational training in emerging sectors to ensure our youth are job-ready and capable of
+                            driving rural innovation. These programs are designed to meet the evolving needs of the job
+                            market and equip young people with the technical and soft skills required for success. By
+                            nurturing their talent and providing them with quality education and training, we are
+                            helping them build prosperous careers and contribute meaningfully to the development of
+                            their communities and the nation.
+                        </div>
+                        <button onclick="toggleBlog('blog5')" id="blog5-btn"
+                            class="text-brand-green font-black uppercase text-sm tracking-widest hover:text-brand-orange transition-colors flex items-center">
+                            <span>Read More</span>
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 pt-20 text-gray-400 font-black">
+        <div class="container mx-auto px-4 grid md:grid-cols-4 gap-12 pb-16">
+            <div class="col-span-1 md:col-span-2">
+                <div class="flex items-center space-x-2 mb-6">
+                    <img src="image/logo.jpg" alt="KGVS Logo" class="h-10 w-auto rounded-full bg-white p-1">
+                    <span class="text-2xl font-black text-white uppercase tracking-tighter">KGVS GLOBAL</span>
+                </div>
+                <p class="max-w-md mb-8 leading-relaxed">Dedicated to sustainable agriculture and rural youth
+                    development since 2005. Supported by NABARD.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-black mb-6 uppercase text-sm tracking-widest">Explore</h4>
+                <ul class="space-y-4">
+                    <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="about.html" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="projects.html" class="hover:text-white transition-colors">Projects</a></li>
+                    <li><a href="blog.html" class="text-white transition-colors">Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-black mb-6 uppercase text-sm tracking-widest">Contact Info</h4>
+                <ul class="space-y-4 text-sm">
+                    <li>1J5, Jiya Complex, Opp. J.B. Girls College, Jhunjhunu, Rajasthan, India</li>
+                    <li>+91-7568304591</li>
+                    <li>jaipalsinghkgvs@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg-black py-12 border-t border-white/10">
+            <div class="container mx-auto px-4 flex flex-col items-center">
+                <div class="flex space-x-8 mb-10">
+                    <a href="https://www.instagram.com/i.y.k.r.i" target="_blank"
+                        class="text-white hover:text-pink-500 transition-all transform hover:scale-125">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                </div>
+                <a href="https://sigmaweb.in" target="_blank"
+                    class="bg-gray-800 hover:bg-brand-orange text-white font-black px-12 py-4 rounded-2xl shadow-2xl transition-all transform hover:scale-110 mb-6 border border-white/10 tracking-widest text-lg md:text-xl uppercase">
+                    Created by - SIGMAWEB
+                </a>
+                <div
+                    class="flex justify-between w-full max-w-4xl text-[10px] md:text-xs text-gray-500 font-black uppercase tracking-widest">
+                    <p>&copy; 2026 KGVS Global. All rights reserved.</p>
+                    <a href="privacy.html" class="hover:text-white">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuClose = document.getElementById('menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        const setMenuState = (open) => {
+            mobileMenu.classList.toggle('hidden-menu', !open);
+            menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            mobileMenu.setAttribute('aria-hidden', open ? 'false' : 'true');
+        };
+
+        menuToggle.addEventListener('click', () => setMenuState(true));
+        menuClose.addEventListener('click', () => setMenuState(false));
+
+        function toggleBlog(id) {
+            const content = document.getElementById(id + '-content');
+            const btn = document.getElementById(id + '-btn');
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                btn.innerText = 'Show Less';
+            } else {
+                content.classList.add('collapsed');
+                btn.innerText = 'Read More';
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+

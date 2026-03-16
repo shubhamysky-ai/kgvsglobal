@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kgvsglobal.in/sitemap.xml
